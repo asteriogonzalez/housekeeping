@@ -260,7 +260,11 @@ def install_chrome():
 @roles('ubuntu', 'home', )
 @task
 def install_wingide():
-    wget_install_deb('http://wingware.com/pub/wingide/5.1.12/wingide5_5.1.12-1_i386.deb')
+    # for 32-kernel version (otherwise debuger will not work!)
+    # wget_install_deb('http://wingware.com/pub/wingide/5.1.12/wingide5_5.1.12-1_i386.deb')
+
+    # for 64-kernel version
+    wget_install_deb('http://wingware.com/pub/wingide/5.1.12/wingide5_5.1.12-1_amd64.deb')
 
     with warn_only():
         run('mkdir ~/.wingide5')
