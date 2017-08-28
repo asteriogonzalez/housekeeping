@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# WingIDE
+*.wpu
+*.wpr
+
+# Licenses
+*/License.sublime_license
+

@@ -1,0 +1,22 @@
+[user-preferences]
+debug.passive-listen = True
+debug.pretty-print-in-shells = True
+edit.auto-edit-spaces = True
+edit.auto-edit-spaces-args = True
+edit.auto-edit-spaces-enforce = True
+edit.auto-edit-spaces-kw = True
+edit.enable-font-zoom = True
+edit.ensure-ending-eol-on-save = True
+edit.fold-indicator-style = 0
+edit.other-split-type = 'default'
+edit.qt-display-font = u'Courier 10 Pitch,10'
+edit.show-indent-guides = True
+edit.show-line-numbers = True
+edit.show-whitespace = True
+edit.tab-size = 4
+gui.auto-save-before-action = True
+gui.block-comment-style = 'indented-pep8'
+gui.show-feedback-dialog = False
+main.auto-check-updates = False
+main.auto-rstrip-on-save = 'on-save'
+
