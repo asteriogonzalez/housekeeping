@@ -1,0 +1,11 @@
+This folder contains Sublime Text configuration files.
+
+You may save your license in order to install in every computer of your own.
+
+The file must be place in a file named: 
+
+    License.sublime_license
+
+and it would be automatic placed into your sublime configuration files in the remote computer.
+ 
+
